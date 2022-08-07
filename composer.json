@@ -1,0 +1,19 @@
+{
+    "name": "takyafumin/docker_simple_memo_php",
+    "autoload": {
+        "psr-4": {
+            "Takyafumin\\DockerSimpleMemoPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "takyafumin",
+            "email": "takyafumin@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*",
+        "cakephp/cakephp-codesniffer": "*",
+        "phpmd/phpmd": "^2.12"
+    }
+}
